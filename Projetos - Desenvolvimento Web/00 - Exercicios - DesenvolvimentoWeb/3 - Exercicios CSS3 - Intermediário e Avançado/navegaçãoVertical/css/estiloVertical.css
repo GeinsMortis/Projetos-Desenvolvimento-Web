@@ -1,0 +1,47 @@
+/*
+ul {
+	border: 1px solid red;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding: 5px 20px;
+	background: url('../imagens/seta.png') no-repeat left center;
+}
+*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	border: 1px solid red;
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;
+	background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}
+
+#home #navegacao-lateral .home a, 
+#sobre #navegacao-lateral .sobre a,
+#jogos #navegacao-lateral .jogos a,
+#noticias #navegacao-lateral .noticias a,
+#caminhada #navegacao-lateral .caminhada a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #fff;
+}

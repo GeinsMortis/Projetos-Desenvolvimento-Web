@@ -1,0 +1,39 @@
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+	background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+	float: left;	
+}
+
+ul li {
+	float: left;
+}
+
+ul a {
+	display: block;
+	padding: 0 2em;
+	line-height: 2.2em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+	background: none;
+}
+
+ul a:hover {
+	color: #085662;
+	background: #44cade;
+}
+
+#home #navegacao-lateral .home a, 
+#sobre #navegacao-lateral .sobre a,
+#jogos #navegacao-lateral .jogos a,
+#noticias #navegacao-lateral .noticias a,
+#caminhada #navegacao-lateral .caminhada a {
+	color: #085662;
+	background: #44cade;
+}

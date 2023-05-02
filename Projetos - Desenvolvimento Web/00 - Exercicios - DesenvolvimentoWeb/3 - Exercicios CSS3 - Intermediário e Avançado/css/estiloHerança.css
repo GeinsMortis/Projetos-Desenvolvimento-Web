@@ -1,0 +1,19 @@
+/*
+#pagina p {
+	color: blue;
+}
+
+#pagina p {
+	color: red;
+}
+*/
+
+/* SE UM SELETOR FOR MAIS ESPECIFICO QUE OUTRO, A REGRA MAIS ESPECIFICA SERÁ APLICADA */
+
+* {
+	color: red;
+}
+
+h2 {
+	color: blue;
+}

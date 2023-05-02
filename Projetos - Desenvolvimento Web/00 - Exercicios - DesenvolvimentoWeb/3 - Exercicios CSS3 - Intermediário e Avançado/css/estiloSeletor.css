@@ -1,0 +1,60 @@
+/******* SELETOR UNIVERSAL *******/
+
+/*
+* {
+	border: 1px solid red;
+} */
+
+/******* SELETOR DE TEXTO *******/
+
+/*
+h1 {
+	color: blue;
+} */
+
+/******* SELETOR DE CLASSE *******/
+
+/*
+p.verde {
+	color: green;
+}
+*/
+
+/******* SELETOR DE ID *******/
+
+/*
+#cabecalho {
+	border: 1px solid blue;
+}
+*/
+
+/******* SELETOR DE FILHO *******/
+
+/*
+li>a {
+	color: red;
+	text-decoration: none;
+}
+*/
+
+/******* SELETOR DE DESCENDENTE *******/
+
+/*
+p a{
+	color: green;
+}
+*/
+
+/******* SELETOR DE IRMÃO ADJACENTE *******/
+
+/*
+h1 + p {
+	color: red;
+}
+*/
+
+/******* SELETOR DE IRMÃO GERAL *******/
+
+h1~p {
+	color: pink;
+}
