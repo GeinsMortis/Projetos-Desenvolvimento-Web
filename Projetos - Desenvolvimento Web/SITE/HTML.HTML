@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #sim-button, #nao-button {
+            font-size: 18px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body style="background: url(imagens/qualidade.jpeg);">
+    <h1 style="color: rgb(247, 0, 255);">Emanoel é malicioso? Sim ou não?</h1>
+    <button id="sim-button" style="background-color: rgb(0, 255, 0);"><strong>Sim</strong></button>
+    <button id="nao-button" style="background-color: red;"><strong>Não</strong></button>
+
+    <script>
+        // Função para mover o botão "Não" para uma posição aleatória na tela
+        function moverNaoButton() {
+            const naoButton = document.getElementById('nao-button');
+            const maxWidth = window.innerWidth - naoButton.clientWidth;
+            const maxHeight = window.innerHeight - naoButton.clientHeight;
+
+            const newX = Math.random() * maxWidth;
+            const newY = Math.random() * maxHeight;
+
+            naoButton.style.position = 'absolute';
+            naoButton.style.left = newX + 'px';
+            naoButton.style.top = newY + 'px';
+        }
+
+        // Event listener para o botão "Não"
+        document.getElementById('nao-button').addEventListener('click', moverNaoButton);
+
+        // Event listener para o botão "Sim"
+        document.getElementById('sim-button').addEventListener('click', function() {
+            alert('Sim, o Emanoel é malicioso!!!!');
+        });
+    </script>
+</body>
+</html>
